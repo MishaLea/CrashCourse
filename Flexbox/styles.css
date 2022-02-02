@@ -5,39 +5,53 @@ body {
     border: 6px solid black;
     display: flex;
     /* flex-direction: column; */
-    height: 800px;
-    flex-wrap: wrap;
+    height: 400px;
+    /* flex-wrap: wrap; */
     /* flex-flow: row-reverse wrap; */
     /* column-gap: 20px;
     row-gap: 30px; */
     /* gap: 40px 20px; */
     /* justify-content: flex-start; */
     /* align-items: baseline; */
-    align-content: space-around;
+    /* align-content: space-around; */
+    align-items: flex-end;
 }
 .flex-item {
     color: white;
     font-size: 1.5rem;
     padding: 1rem;
     text-align: center;
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+    /* width: 6rem; */
 }
 .item-1 {
     background-color: yellow;
+    /* flex-basis: 200px; */
+    /* flex-grow: 1; */
+    align-self: flex-start;
 }
 .item-2 {
     background-color: green;
+    align-self: flex-end;
 }
 .item-3 {
     background-color: orange;
+    /* flex-shrink: 4; */
+    align-self: center;
 }
 .item-4 {
     background-color: blue;
+    align-self: stretch;
 }
 .item-5 {
     background-color: purple;
+    /* flex-grow: 1; */
+    align-self: auto;
 }
 .item-6 {
     background-color: turquoise;
+    /* flex-grow: 3; */
 }
 .item-7 {
     background-color: red;
